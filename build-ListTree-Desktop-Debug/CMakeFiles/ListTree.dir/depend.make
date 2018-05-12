@@ -3,7 +3,9 @@
 
 CMakeFiles/ListTree.dir/list.cpp.o: /home/user/Day5/ListTree/list.cpp
 
+CMakeFiles/ListTree.dir/main.cpp.o: /home/user/Day5/ListTree/list.h
 CMakeFiles/ListTree.dir/main.cpp.o: /home/user/Day5/ListTree/main.cpp
+CMakeFiles/ListTree.dir/main.cpp.o: /home/user/Day5/ListTree/tree.h
 
 CMakeFiles/ListTree.dir/tree.cpp.o: /home/user/Day5/ListTree/tree.cpp
 CMakeFiles/ListTree.dir/tree.cpp.o: /home/user/Day5/ListTree/tree.h

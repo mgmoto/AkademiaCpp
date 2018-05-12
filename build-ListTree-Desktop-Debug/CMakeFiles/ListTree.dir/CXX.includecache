@@ -14,9 +14,15 @@ list
 memory
 -
 
+/home/user/Day5/ListTree/list.h
+
 /home/user/Day5/ListTree/main.cpp
 iostream
 -
+list.h
+/home/user/Day5/ListTree/list.h
+tree.h
+/home/user/Day5/ListTree/tree.h
 
 /home/user/Day5/ListTree/tree.cpp
 iostream

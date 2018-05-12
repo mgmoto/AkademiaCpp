@@ -4,6 +4,12 @@
 
 using namespace std;
 
+
+// max element wyszukiwanie
+// min element wyszukiwanie
+// sumowanie elementow
+
+
 struct BSTNode
 {
     int value;
@@ -169,7 +175,7 @@ bool BinSearchTree::containsRecur(int elem, BSTNode *pCurrRoot) const
     bool result = false;
 
     if (pCurrRoot != nullptr) {
-        int val = pCurrRoot->value;
+        int val = pCurrRoot->value; //const int val = pCurrRoot->value
         if (val == elem) {
             result = true;
         } else if ((m_isIncr && elem < val) || (!m_isIncr && elem > val)) {
