@@ -7,6 +7,8 @@ CMakeFiles/ListTree.dir/main.cpp.o: /home/user/Day5/ListTree/list.h
 CMakeFiles/ListTree.dir/main.cpp.o: /home/user/Day5/ListTree/main.cpp
 CMakeFiles/ListTree.dir/main.cpp.o: /home/user/Day5/ListTree/tree.h
 
+CMakeFiles/ListTree.dir/polimorf.cpp.o: /home/user/Day5/ListTree/polimorf.cpp
+
 CMakeFiles/ListTree.dir/tree.cpp.o: /home/user/Day5/ListTree/tree.cpp
 CMakeFiles/ListTree.dir/tree.cpp.o: /home/user/Day5/ListTree/tree.h
 

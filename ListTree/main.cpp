@@ -4,8 +4,14 @@
 
 using namespace std;
 
+void runPolymorphismFuncs();
+void runSmartPointersFuncs();
+
 int main()
 {
+    runPolymorphismFuncs();
+    runSmartPointersFuncs();
+    //-----------------------
     runListMethods();
     runBinSearchTreeMethods();
     return 0;

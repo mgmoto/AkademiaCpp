@@ -24,6 +24,12 @@ list.h
 tree.h
 /home/user/Day5/ListTree/tree.h
 
+/home/user/Day5/ListTree/polimorf.cpp
+iostream
+-
+memory
+-
+
 /home/user/Day5/ListTree/tree.cpp
 iostream
 -

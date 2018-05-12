@@ -177,6 +177,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/ListTree.dir/build.make CMakeFiles/ListTree.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+polimorf.o: polimorf.cpp.o
+
+.PHONY : polimorf.o
+
+# target to build an object file
+polimorf.cpp.o:
+	$(MAKE) -f CMakeFiles/ListTree.dir/build.make CMakeFiles/ListTree.dir/polimorf.cpp.o
+.PHONY : polimorf.cpp.o
+
+polimorf.i: polimorf.cpp.i
+
+.PHONY : polimorf.i
+
+# target to preprocess a source file
+polimorf.cpp.i:
+	$(MAKE) -f CMakeFiles/ListTree.dir/build.make CMakeFiles/ListTree.dir/polimorf.cpp.i
+.PHONY : polimorf.cpp.i
+
+polimorf.s: polimorf.cpp.s
+
+.PHONY : polimorf.s
+
+# target to generate assembly for a file
+polimorf.cpp.s:
+	$(MAKE) -f CMakeFiles/ListTree.dir/build.make CMakeFiles/ListTree.dir/polimorf.cpp.s
+.PHONY : polimorf.cpp.s
+
 tree.o: tree.cpp.o
 
 .PHONY : tree.o
@@ -219,6 +246,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... polimorf.o"
+	@echo "... polimorf.i"
+	@echo "... polimorf.s"
 	@echo "... tree.o"
 	@echo "... tree.i"
 	@echo "... tree.s"

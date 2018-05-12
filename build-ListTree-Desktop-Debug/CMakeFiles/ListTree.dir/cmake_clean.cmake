@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ListTree.dir/list.cpp.o"
   "CMakeFiles/ListTree.dir/main.cpp.o"
+  "CMakeFiles/ListTree.dir/polimorf.cpp.o"
   "CMakeFiles/ListTree.dir/tree.cpp.o"
   "ListTree.pdb"
   "ListTree"
