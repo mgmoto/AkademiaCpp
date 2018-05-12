@@ -1,0 +1,3 @@
+/home/user/Day5/build-ListTree-Desktop-Default/CMakeFiles/edit_cache.dir
+/home/user/Day5/build-ListTree-Desktop-Default/CMakeFiles/rebuild_cache.dir
+/home/user/Day5/build-ListTree-Desktop-Default/CMakeFiles/ListTree.dir

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/Day5/ListTree/list.cpp
+iostream
+-
+list
+/home/user/Day5/ListTree/list
+memory
+-
+
+/home/user/Day5/ListTree/main.cpp
+iostream
+-
+
+/home/user/Day5/ListTree/tree.cpp
+iostream
+-
+memory
+-
+tree.h
+/home/user/Day5/ListTree/tree.h
+
+/home/user/Day5/ListTree/tree.h
+

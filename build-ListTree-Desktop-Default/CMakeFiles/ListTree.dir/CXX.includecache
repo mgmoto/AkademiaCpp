@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/Day5/ListTree/list.cpp
+iostream
+-
+memory
+-
+
+/home/user/Day5/ListTree/main.cpp
+iostream
+-
+
+/home/user/Day5/ListTree/tree.cpp
+
