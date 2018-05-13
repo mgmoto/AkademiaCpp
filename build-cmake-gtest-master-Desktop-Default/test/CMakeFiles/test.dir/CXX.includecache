@@ -13,6 +13,8 @@
 /home/user/Day5/cmake-gtest-master/src/wielomian.h
 
 /home/user/Day5/cmake-gtest-master/src/wymierne.h
+iostream
+-
 
 /home/user/Day5/cmake-gtest-master/test/example.cpp
 gtest/gtest.h

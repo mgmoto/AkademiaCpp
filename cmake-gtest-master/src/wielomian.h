@@ -2,7 +2,6 @@
 #define WIELOMIAN_H
 
 struct Solution{
-public:
     double x1;
     double x2;
     int count;
