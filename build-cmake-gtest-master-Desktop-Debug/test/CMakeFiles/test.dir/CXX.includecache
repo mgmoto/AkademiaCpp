@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/Day5/cmake-gtest-master/src/example.hpp
+
+/home/user/Day5/cmake-gtest-master/test/example.cpp
+gtest/gtest.h
+/home/user/Day5/cmake-gtest-master/test/gtest/gtest.h
+example.hpp
+/home/user/Day5/cmake-gtest-master/test/example.hpp
+
+/home/user/Day5/cmake-gtest-master/test/main.cpp
+gtest/gtest.h
+/home/user/Day5/cmake-gtest-master/test/gtest/gtest.h
+

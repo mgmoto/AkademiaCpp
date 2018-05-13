@@ -1,0 +1,10 @@
+/home/user/Day5/build-cmake-gtest-master-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/user/Day5/build-cmake-gtest-master-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/user/Day5/build-cmake-gtest-master-Desktop-Debug/CMakeFiles/main.dir
+/home/user/Day5/build-cmake-gtest-master-Desktop-Debug/CMakeFiles/libstuff.dir
+/home/user/Day5/build-cmake-gtest-master-Desktop-Debug/lib/gtest/CMakeFiles/rebuild_cache.dir
+/home/user/Day5/build-cmake-gtest-master-Desktop-Debug/lib/gtest/CMakeFiles/edit_cache.dir
+/home/user/Day5/build-cmake-gtest-master-Desktop-Debug/lib/gtest/CMakeFiles/gtest.dir
+/home/user/Day5/build-cmake-gtest-master-Desktop-Debug/test/CMakeFiles/rebuild_cache.dir
+/home/user/Day5/build-cmake-gtest-master-Desktop-Debug/test/CMakeFiles/edit_cache.dir
+/home/user/Day5/build-cmake-gtest-master-Desktop-Debug/test/CMakeFiles/test.dir

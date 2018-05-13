@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/Day5/cmake-gtest-master/ListTree/list.cpp
+iostream
+-
+list
+/home/user/Day5/cmake-gtest-master/ListTree/list
+memory
+-
+
+/home/user/Day5/cmake-gtest-master/ListTree/list.h
+
+/home/user/Day5/cmake-gtest-master/ListTree/main.cpp
+iostream
+-
+list.h
+/home/user/Day5/cmake-gtest-master/ListTree/list.h
+tree.h
+/home/user/Day5/cmake-gtest-master/ListTree/tree.h
+
+/home/user/Day5/cmake-gtest-master/ListTree/polimorf.cpp
+iostream
+-
+memory
+-
+
+/home/user/Day5/cmake-gtest-master/ListTree/tree.cpp
+iostream
+-
+memory
+-
+tree.h
+/home/user/Day5/cmake-gtest-master/ListTree/tree.h
+
+/home/user/Day5/cmake-gtest-master/ListTree/tree.h
+
