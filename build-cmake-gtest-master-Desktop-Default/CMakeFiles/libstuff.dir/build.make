@@ -105,19 +105,45 @@ CMakeFiles/libstuff.dir/src/list.cpp.o.provides: CMakeFiles/libstuff.dir/src/lis
 CMakeFiles/libstuff.dir/src/list.cpp.o.provides.build: CMakeFiles/libstuff.dir/src/list.cpp.o
 
 
+CMakeFiles/libstuff.dir/src/wielomian.cpp.o: CMakeFiles/libstuff.dir/flags.make
+CMakeFiles/libstuff.dir/src/wielomian.cpp.o: /home/user/Day5/cmake-gtest-master/src/wielomian.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Day5/build-cmake-gtest-master-Desktop-Default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/libstuff.dir/src/wielomian.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libstuff.dir/src/wielomian.cpp.o -c /home/user/Day5/cmake-gtest-master/src/wielomian.cpp
+
+CMakeFiles/libstuff.dir/src/wielomian.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libstuff.dir/src/wielomian.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Day5/cmake-gtest-master/src/wielomian.cpp > CMakeFiles/libstuff.dir/src/wielomian.cpp.i
+
+CMakeFiles/libstuff.dir/src/wielomian.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libstuff.dir/src/wielomian.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Day5/cmake-gtest-master/src/wielomian.cpp -o CMakeFiles/libstuff.dir/src/wielomian.cpp.s
+
+CMakeFiles/libstuff.dir/src/wielomian.cpp.o.requires:
+
+.PHONY : CMakeFiles/libstuff.dir/src/wielomian.cpp.o.requires
+
+CMakeFiles/libstuff.dir/src/wielomian.cpp.o.provides: CMakeFiles/libstuff.dir/src/wielomian.cpp.o.requires
+	$(MAKE) -f CMakeFiles/libstuff.dir/build.make CMakeFiles/libstuff.dir/src/wielomian.cpp.o.provides.build
+.PHONY : CMakeFiles/libstuff.dir/src/wielomian.cpp.o.provides
+
+CMakeFiles/libstuff.dir/src/wielomian.cpp.o.provides.build: CMakeFiles/libstuff.dir/src/wielomian.cpp.o
+
+
 # Object files for target libstuff
 libstuff_OBJECTS = \
 "CMakeFiles/libstuff.dir/src/example.cpp.o" \
-"CMakeFiles/libstuff.dir/src/list.cpp.o"
+"CMakeFiles/libstuff.dir/src/list.cpp.o" \
+"CMakeFiles/libstuff.dir/src/wielomian.cpp.o"
 
 # External object files for target libstuff
 libstuff_EXTERNAL_OBJECTS =
 
 liblibstuff.a: CMakeFiles/libstuff.dir/src/example.cpp.o
 liblibstuff.a: CMakeFiles/libstuff.dir/src/list.cpp.o
+liblibstuff.a: CMakeFiles/libstuff.dir/src/wielomian.cpp.o
 liblibstuff.a: CMakeFiles/libstuff.dir/build.make
 liblibstuff.a: CMakeFiles/libstuff.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/Day5/build-cmake-gtest-master-Desktop-Default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library liblibstuff.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/Day5/build-cmake-gtest-master-Desktop-Default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library liblibstuff.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/libstuff.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libstuff.dir/link.txt --verbose=$(VERBOSE)
 
@@ -128,6 +154,7 @@ CMakeFiles/libstuff.dir/build: liblibstuff.a
 
 CMakeFiles/libstuff.dir/requires: CMakeFiles/libstuff.dir/src/example.cpp.o.requires
 CMakeFiles/libstuff.dir/requires: CMakeFiles/libstuff.dir/src/list.cpp.o.requires
+CMakeFiles/libstuff.dir/requires: CMakeFiles/libstuff.dir/src/wielomian.cpp.o.requires
 
 .PHONY : CMakeFiles/libstuff.dir/requires
 

@@ -10,6 +10,10 @@
 
 /home/user/Day5/cmake-gtest-master/src/list.h
 
+/home/user/Day5/cmake-gtest-master/src/wielomian.h
+
+/home/user/Day5/cmake-gtest-master/src/wymierne.h
+
 /home/user/Day5/cmake-gtest-master/test/example.cpp
 gtest/gtest.h
 /home/user/Day5/cmake-gtest-master/test/gtest/gtest.h
@@ -25,6 +29,20 @@ list.h
 /home/user/Day5/cmake-gtest-master/test/main.cpp
 gtest/gtest.h
 /home/user/Day5/cmake-gtest-master/test/gtest/gtest.h
+
+/home/user/Day5/cmake-gtest-master/test/wielomian.cpp
+gtest/gtest.h
+/home/user/Day5/cmake-gtest-master/test/gtest/gtest.h
+wielomian.h
+/home/user/Day5/cmake-gtest-master/test/wielomian.h
+cmath
+/home/user/Day5/cmake-gtest-master/test/cmath
+
+/home/user/Day5/cmake-gtest-master/test/wymierne.cpp
+gtest/gtest.h
+/home/user/Day5/cmake-gtest-master/test/gtest/gtest.h
+wymierne.h
+/home/user/Day5/cmake-gtest-master/test/wymierne.h
 
 lib/gtest/gtest/src/gtest/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

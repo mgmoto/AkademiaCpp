@@ -206,6 +206,60 @@ main.cpp.s:
 	cd /home/user/Day5/build-cmake-gtest-master-Desktop-Default && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+wielomian.o: wielomian.cpp.o
+
+.PHONY : wielomian.o
+
+# target to build an object file
+wielomian.cpp.o:
+	cd /home/user/Day5/build-cmake-gtest-master-Desktop-Default && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/wielomian.cpp.o
+.PHONY : wielomian.cpp.o
+
+wielomian.i: wielomian.cpp.i
+
+.PHONY : wielomian.i
+
+# target to preprocess a source file
+wielomian.cpp.i:
+	cd /home/user/Day5/build-cmake-gtest-master-Desktop-Default && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/wielomian.cpp.i
+.PHONY : wielomian.cpp.i
+
+wielomian.s: wielomian.cpp.s
+
+.PHONY : wielomian.s
+
+# target to generate assembly for a file
+wielomian.cpp.s:
+	cd /home/user/Day5/build-cmake-gtest-master-Desktop-Default && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/wielomian.cpp.s
+.PHONY : wielomian.cpp.s
+
+wymierne.o: wymierne.cpp.o
+
+.PHONY : wymierne.o
+
+# target to build an object file
+wymierne.cpp.o:
+	cd /home/user/Day5/build-cmake-gtest-master-Desktop-Default && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/wymierne.cpp.o
+.PHONY : wymierne.cpp.o
+
+wymierne.i: wymierne.cpp.i
+
+.PHONY : wymierne.i
+
+# target to preprocess a source file
+wymierne.cpp.i:
+	cd /home/user/Day5/build-cmake-gtest-master-Desktop-Default && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/wymierne.cpp.i
+.PHONY : wymierne.cpp.i
+
+wymierne.s: wymierne.cpp.s
+
+.PHONY : wymierne.s
+
+# target to generate assembly for a file
+wymierne.cpp.s:
+	cd /home/user/Day5/build-cmake-gtest-master-Desktop-Default && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/wymierne.cpp.s
+.PHONY : wymierne.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -224,6 +278,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... wielomian.o"
+	@echo "... wielomian.i"
+	@echo "... wielomian.s"
+	@echo "... wymierne.o"
+	@echo "... wymierne.i"
+	@echo "... wymierne.s"
 .PHONY : help
 
 

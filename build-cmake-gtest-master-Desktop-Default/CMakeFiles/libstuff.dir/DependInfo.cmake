@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/user/Day5/cmake-gtest-master/src/example.cpp" "/home/user/Day5/build-cmake-gtest-master-Desktop-Default/CMakeFiles/libstuff.dir/src/example.cpp.o"
   "/home/user/Day5/cmake-gtest-master/src/list.cpp" "/home/user/Day5/build-cmake-gtest-master-Desktop-Default/CMakeFiles/libstuff.dir/src/list.cpp.o"
+  "/home/user/Day5/cmake-gtest-master/src/wielomian.cpp" "/home/user/Day5/build-cmake-gtest-master-Desktop-Default/CMakeFiles/libstuff.dir/src/wielomian.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

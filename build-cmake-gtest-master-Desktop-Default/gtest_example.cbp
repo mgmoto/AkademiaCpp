@@ -161,6 +161,15 @@
 		<Unit filename="/home/user/Day5/cmake-gtest-master/src/main.cpp">
 			<Option target="main"/>
 		</Unit>
+		<Unit filename="/home/user/Day5/cmake-gtest-master/src/wielomian.cpp">
+			<Option target="libstuff"/>
+		</Unit>
+		<Unit filename="/home/user/Day5/cmake-gtest-master/src/wielomian.h">
+			<Option target="libstuff"/>
+		</Unit>
+		<Unit filename="/home/user/Day5/cmake-gtest-master/src/wymierne.h">
+			<Option target="libstuff"/>
+		</Unit>
 		<Unit filename="/home/user/Day5/cmake-gtest-master/test/example.cpp">
 			<Option target="test"/>
 		</Unit>
@@ -168,6 +177,12 @@
 			<Option target="test"/>
 		</Unit>
 		<Unit filename="/home/user/Day5/cmake-gtest-master/test/main.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/user/Day5/cmake-gtest-master/test/wielomian.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/user/Day5/cmake-gtest-master/test/wymierne.cpp">
 			<Option target="test"/>
 		</Unit>
 		<Unit filename="/home/user/Day5/cmake-gtest-master/CMakeLists.txt">

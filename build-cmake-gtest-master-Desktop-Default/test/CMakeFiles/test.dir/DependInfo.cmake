@@ -7,6 +7,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/user/Day5/cmake-gtest-master/test/example.cpp" "/home/user/Day5/build-cmake-gtest-master-Desktop-Default/test/CMakeFiles/test.dir/example.cpp.o"
   "/home/user/Day5/cmake-gtest-master/test/list.cpp" "/home/user/Day5/build-cmake-gtest-master-Desktop-Default/test/CMakeFiles/test.dir/list.cpp.o"
   "/home/user/Day5/cmake-gtest-master/test/main.cpp" "/home/user/Day5/build-cmake-gtest-master-Desktop-Default/test/CMakeFiles/test.dir/main.cpp.o"
+  "/home/user/Day5/cmake-gtest-master/test/wielomian.cpp" "/home/user/Day5/build-cmake-gtest-master-Desktop-Default/test/CMakeFiles/test.dir/wielomian.cpp.o"
+  "/home/user/Day5/cmake-gtest-master/test/wymierne.cpp" "/home/user/Day5/build-cmake-gtest-master-Desktop-Default/test/CMakeFiles/test.dir/wymierne.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

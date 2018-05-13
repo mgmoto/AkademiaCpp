@@ -16,3 +16,13 @@ list
 memory
 -
 
+/home/user/Day5/cmake-gtest-master/src/wielomian.cpp
+wielomian.h
+/home/user/Day5/cmake-gtest-master/src/wielomian.h
+math.h
+-
+iostream
+-
+
+/home/user/Day5/cmake-gtest-master/src/wielomian.h
+

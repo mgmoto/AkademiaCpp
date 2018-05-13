@@ -129,11 +129,61 @@ test/CMakeFiles/test.dir/list.cpp.o.provides: test/CMakeFiles/test.dir/list.cpp.
 test/CMakeFiles/test.dir/list.cpp.o.provides.build: test/CMakeFiles/test.dir/list.cpp.o
 
 
+test/CMakeFiles/test.dir/wielomian.cpp.o: test/CMakeFiles/test.dir/flags.make
+test/CMakeFiles/test.dir/wielomian.cpp.o: /home/user/Day5/cmake-gtest-master/test/wielomian.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Day5/build-cmake-gtest-master-Desktop-Default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/CMakeFiles/test.dir/wielomian.cpp.o"
+	cd /home/user/Day5/build-cmake-gtest-master-Desktop-Default/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/wielomian.cpp.o -c /home/user/Day5/cmake-gtest-master/test/wielomian.cpp
+
+test/CMakeFiles/test.dir/wielomian.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/wielomian.cpp.i"
+	cd /home/user/Day5/build-cmake-gtest-master-Desktop-Default/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Day5/cmake-gtest-master/test/wielomian.cpp > CMakeFiles/test.dir/wielomian.cpp.i
+
+test/CMakeFiles/test.dir/wielomian.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/wielomian.cpp.s"
+	cd /home/user/Day5/build-cmake-gtest-master-Desktop-Default/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Day5/cmake-gtest-master/test/wielomian.cpp -o CMakeFiles/test.dir/wielomian.cpp.s
+
+test/CMakeFiles/test.dir/wielomian.cpp.o.requires:
+
+.PHONY : test/CMakeFiles/test.dir/wielomian.cpp.o.requires
+
+test/CMakeFiles/test.dir/wielomian.cpp.o.provides: test/CMakeFiles/test.dir/wielomian.cpp.o.requires
+	$(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/wielomian.cpp.o.provides.build
+.PHONY : test/CMakeFiles/test.dir/wielomian.cpp.o.provides
+
+test/CMakeFiles/test.dir/wielomian.cpp.o.provides.build: test/CMakeFiles/test.dir/wielomian.cpp.o
+
+
+test/CMakeFiles/test.dir/wymierne.cpp.o: test/CMakeFiles/test.dir/flags.make
+test/CMakeFiles/test.dir/wymierne.cpp.o: /home/user/Day5/cmake-gtest-master/test/wymierne.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Day5/build-cmake-gtest-master-Desktop-Default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object test/CMakeFiles/test.dir/wymierne.cpp.o"
+	cd /home/user/Day5/build-cmake-gtest-master-Desktop-Default/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/wymierne.cpp.o -c /home/user/Day5/cmake-gtest-master/test/wymierne.cpp
+
+test/CMakeFiles/test.dir/wymierne.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/wymierne.cpp.i"
+	cd /home/user/Day5/build-cmake-gtest-master-Desktop-Default/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Day5/cmake-gtest-master/test/wymierne.cpp > CMakeFiles/test.dir/wymierne.cpp.i
+
+test/CMakeFiles/test.dir/wymierne.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/wymierne.cpp.s"
+	cd /home/user/Day5/build-cmake-gtest-master-Desktop-Default/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Day5/cmake-gtest-master/test/wymierne.cpp -o CMakeFiles/test.dir/wymierne.cpp.s
+
+test/CMakeFiles/test.dir/wymierne.cpp.o.requires:
+
+.PHONY : test/CMakeFiles/test.dir/wymierne.cpp.o.requires
+
+test/CMakeFiles/test.dir/wymierne.cpp.o.provides: test/CMakeFiles/test.dir/wymierne.cpp.o.requires
+	$(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/wymierne.cpp.o.provides.build
+.PHONY : test/CMakeFiles/test.dir/wymierne.cpp.o.provides
+
+test/CMakeFiles/test.dir/wymierne.cpp.o.provides.build: test/CMakeFiles/test.dir/wymierne.cpp.o
+
+
 # Object files for target test
 test_OBJECTS = \
 "CMakeFiles/test.dir/example.cpp.o" \
 "CMakeFiles/test.dir/main.cpp.o" \
-"CMakeFiles/test.dir/list.cpp.o"
+"CMakeFiles/test.dir/list.cpp.o" \
+"CMakeFiles/test.dir/wielomian.cpp.o" \
+"CMakeFiles/test.dir/wymierne.cpp.o"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
@@ -141,11 +191,13 @@ test_EXTERNAL_OBJECTS =
 test/test: test/CMakeFiles/test.dir/example.cpp.o
 test/test: test/CMakeFiles/test.dir/main.cpp.o
 test/test: test/CMakeFiles/test.dir/list.cpp.o
+test/test: test/CMakeFiles/test.dir/wielomian.cpp.o
+test/test: test/CMakeFiles/test.dir/wymierne.cpp.o
 test/test: test/CMakeFiles/test.dir/build.make
 test/test: liblibstuff.a
 test/test: lib/gtest/gtest/src/gtest-build/googlemock/gtest/libgtest.a
 test/test: test/CMakeFiles/test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/Day5/build-cmake-gtest-master-Desktop-Default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/Day5/build-cmake-gtest-master-Desktop-Default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable test"
 	cd /home/user/Day5/build-cmake-gtest-master-Desktop-Default/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -156,6 +208,8 @@ test/CMakeFiles/test.dir/build: test/test
 test/CMakeFiles/test.dir/requires: test/CMakeFiles/test.dir/example.cpp.o.requires
 test/CMakeFiles/test.dir/requires: test/CMakeFiles/test.dir/main.cpp.o.requires
 test/CMakeFiles/test.dir/requires: test/CMakeFiles/test.dir/list.cpp.o.requires
+test/CMakeFiles/test.dir/requires: test/CMakeFiles/test.dir/wielomian.cpp.o.requires
+test/CMakeFiles/test.dir/requires: test/CMakeFiles/test.dir/wymierne.cpp.o.requires
 
 .PHONY : test/CMakeFiles/test.dir/requires
 

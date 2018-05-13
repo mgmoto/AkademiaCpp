@@ -75,3 +75,53 @@ test/CMakeFiles/test.dir/main.cpp.o
  lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-string.h
  lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-tuple.h
  lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-type-util.h
+test/CMakeFiles/test.dir/wielomian.cpp.o
+ /home/user/Day5/cmake-gtest-master/src/wielomian.h
+ /home/user/Day5/cmake-gtest-master/test/wielomian.cpp
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/gtest-death-test.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/gtest-message.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/gtest-param-test.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/gtest-printers.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/gtest-test-part.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/gtest-typed-test.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/gtest.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/gtest_pred_impl.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/gtest_prod.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/custom/gtest-port.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/custom/gtest-printers.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-death-test-internal.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-filepath.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-internal.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-linked_ptr.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-param-util-generated.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-param-util.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-port-arch.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-port.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-string.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-tuple.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-type-util.h
+test/CMakeFiles/test.dir/wymierne.cpp.o
+ /home/user/Day5/cmake-gtest-master/src/wymierne.h
+ /home/user/Day5/cmake-gtest-master/test/wymierne.cpp
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/gtest-death-test.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/gtest-message.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/gtest-param-test.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/gtest-printers.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/gtest-test-part.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/gtest-typed-test.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/gtest.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/gtest_pred_impl.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/gtest_prod.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/custom/gtest-port.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/custom/gtest-printers.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-death-test-internal.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-filepath.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-internal.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-linked_ptr.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-param-util-generated.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-param-util.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-port-arch.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-port.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-string.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-tuple.h
+ lib/gtest/gtest/src/gtest/googletest/include/gtest/internal/gtest-type-util.h

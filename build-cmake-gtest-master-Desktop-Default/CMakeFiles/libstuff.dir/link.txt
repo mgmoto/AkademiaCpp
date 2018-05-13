@@ -1,2 +1,2 @@
-/usr/bin/ar qc liblibstuff.a  CMakeFiles/libstuff.dir/src/example.cpp.o CMakeFiles/libstuff.dir/src/list.cpp.o
+/usr/bin/ar qc liblibstuff.a  CMakeFiles/libstuff.dir/src/example.cpp.o CMakeFiles/libstuff.dir/src/list.cpp.o CMakeFiles/libstuff.dir/src/wielomian.cpp.o
 /usr/bin/ranlib liblibstuff.a

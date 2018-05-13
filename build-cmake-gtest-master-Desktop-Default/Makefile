@@ -243,6 +243,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/wielomian.o: src/wielomian.cpp.o
+
+.PHONY : src/wielomian.o
+
+# target to build an object file
+src/wielomian.cpp.o:
+	$(MAKE) -f CMakeFiles/libstuff.dir/build.make CMakeFiles/libstuff.dir/src/wielomian.cpp.o
+.PHONY : src/wielomian.cpp.o
+
+src/wielomian.i: src/wielomian.cpp.i
+
+.PHONY : src/wielomian.i
+
+# target to preprocess a source file
+src/wielomian.cpp.i:
+	$(MAKE) -f CMakeFiles/libstuff.dir/build.make CMakeFiles/libstuff.dir/src/wielomian.cpp.i
+.PHONY : src/wielomian.cpp.i
+
+src/wielomian.s: src/wielomian.cpp.s
+
+.PHONY : src/wielomian.s
+
+# target to generate assembly for a file
+src/wielomian.cpp.s:
+	$(MAKE) -f CMakeFiles/libstuff.dir/build.make CMakeFiles/libstuff.dir/src/wielomian.cpp.s
+.PHONY : src/wielomian.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -264,6 +291,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/wielomian.o"
+	@echo "... src/wielomian.i"
+	@echo "... src/wielomian.s"
 .PHONY : help
 
 

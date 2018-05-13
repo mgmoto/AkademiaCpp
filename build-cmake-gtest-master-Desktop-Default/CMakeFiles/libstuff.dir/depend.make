@@ -5,3 +5,6 @@ CMakeFiles/libstuff.dir/src/example.cpp.o: /home/user/Day5/cmake-gtest-master/sr
 
 CMakeFiles/libstuff.dir/src/list.cpp.o: /home/user/Day5/cmake-gtest-master/src/list.cpp
 
+CMakeFiles/libstuff.dir/src/wielomian.cpp.o: /home/user/Day5/cmake-gtest-master/src/wielomian.cpp
+CMakeFiles/libstuff.dir/src/wielomian.cpp.o: /home/user/Day5/cmake-gtest-master/src/wielomian.h
+

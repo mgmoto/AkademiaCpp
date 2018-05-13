@@ -1,9 +1,13 @@
 cmake_minimum_required(VERSION 2.8)
 project(gtest_example)
 
+set(CMAKE_CXX_STANDARD 14)
+
 add_library(libstuff
     src/example.cpp
-    src/list.cpp)
+    src/list.cpp
+    src/wielomian.cpp
+    src/wymierne)
 
 target_include_directories(libstuff PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)
 
